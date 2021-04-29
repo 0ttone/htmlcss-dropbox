@@ -10,3 +10,51 @@ clearfix::after {
     clear: both;
 }
 
+/*utility class*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+.container {
+    height: 600px;
+    background-color: #cddc39;
+    position: relative;
+}
+
+.top-bar {
+    height: 30px;
+    background-color: white;
+    position: relative;
+
+}
+
+header {
+    max-width: 1200px ;
+    margin: 0 auto;
+    position: relative;
+}
+
+.text-top{
+    width: 40%;
+
+}
+
+.image-top{
+    width:60%;
+    
+
+}
