@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -29,7 +29,7 @@ li {
     display: inline;
 }
 
-.container {
+.container-top {
     height: 600px;
     background-color: #cddc39;
     position: relative;
@@ -51,6 +51,7 @@ header {
 .text-top{
     width: 40%;
     height: 400px;
+    
 
 }
 
@@ -59,4 +60,39 @@ header {
     height: 400px;
 
 
+}
+
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ccc;
+    height: 2000px;
+    border: 1px solid black;
+
+}
+
+.button-bplan {
+    width: 100%;
+    height: 30px;
+    background-color: burlywood;
+}
+
+.container-plan {
+    width: 100%
+}
+.ver-pro, .ver-sta, .ver-adv {
+    width: 33%;
+    border: 1px solid black;
+    height: 800px;
+
+    
+
+}
+
+.hor-enter {
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    display: inline-block;
 }
