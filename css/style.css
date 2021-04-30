@@ -47,12 +47,13 @@ h4{
 }
 
 h5{
-    
+
 }
 
 h3{
     font-size: 40px;
     line-height: 70px;
+    padding-top:100px;
 }
 
 .container-top {
@@ -94,8 +95,10 @@ ul.menu-top{
 header {
     max-width: 1200px;
     margin: 0 auto;
-    
+    position: relative;
+    margin-bottom: -100px;
 }
+
 
 .text-top{
     width: 40%;
@@ -108,11 +111,12 @@ header {
 }
 
 .image-top{
-    background-image: url(../img/jumbo.png) center;
+    background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position:center;
     
     width:60%;
-    height: 400px;
+    height: 500px;
     padding-left: 60px;
 
 
@@ -141,12 +145,31 @@ header {
 }
 
 
+
+.button-hor{
+    text-align: center;
+    width: 100%;   
+    background-color: #0061ff;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+
+}
+
+.text-hor{
+    width: 70%;
+}
+.space-hor{
+    width: 30%;
+}
+
+
 section {
     width: 1000px;
     margin: 0 auto;
-    /* background-color: #ccc; */
     height: 2000px;
     border: 1px solid black;
+    
 
 }
 
@@ -154,6 +177,7 @@ section {
 
 .container-plan {
     width: 100%
+
 }
 .ver-pro, .ver-sta, .ver-adv {
     width: calc(100% / 3 );
