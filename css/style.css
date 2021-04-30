@@ -29,6 +29,13 @@ li {
     display: inline;
 }
 
+h1{
+    font-size: 56px;
+    padding-bottom: 30px;
+    
+
+}
+
 .container-top {
     height: 600px;
     background-color: #cddc39;
@@ -38,14 +45,27 @@ li {
 .top-bar {
     height: 30px;
     background-color: white;
-    position: relative;
+    
+}
 
+.menu-top li{
+    text-align: center;
+    margin-left: 35px;
+
+}
+
+ul.menu-top{
+    line-height: 30px;
+}
+
+.button-top{
+    line-height: 30px;
 }
 
 header {
     max-width: 1200px ;
     margin: 0 auto;
-    position: relative;
+    
 }
 
 .text-top{
@@ -53,13 +73,27 @@ header {
     height: 400px;
     
 
+    
+    
+
 }
 
 .image-top{
     width:60%;
     height: 400px;
+    padding-left: 60px;
 
 
+}
+.button-header{
+    text-align: center;
+    width: 50%;   
+    background-color: cornflowerblue;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 
@@ -82,13 +116,19 @@ section {
     width: 100%
 }
 .ver-pro, .ver-sta, .ver-adv {
-    width: 33%;
+    width: calc(100% / 3 );
     border: 1px solid black;
     height: 800px;
+    
+}
+.ver-sta{
+    margin:0 10px;
+}
 
     
 
-}
+
+
 
 .hor-enter {
     width: 100%;
