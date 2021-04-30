@@ -96,31 +96,39 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    margin-bottom: -100px;
+    bottom: -70px;
 }
 
 
 .text-top{
     width: 40%;
-    height: 400px;
-    
-
     
     
-
 }
 
 .image-top{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-position:center;
-    
     width:60%;
-    height: 500px;
     padding-left: 60px;
-
-
+    position: relative;
+    
 }
+
+.image-top img{
+    width: 100%;
+    position: absolute;
+    
+}
+    
+    
+    
+    
+
+
+    
+
+
+
+
 .button-header{
     text-align: center;
     width: 50%;   
