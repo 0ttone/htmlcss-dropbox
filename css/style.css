@@ -45,6 +45,7 @@ h1{
 h4{
     font-size: 30px;
     text-align: center;
+    font-weight: 500;
 
 }
 
@@ -53,9 +54,9 @@ h5{
 }
 
 h3{
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 38px;
     padding-top:100px;
+    
 }
 
 .container-top {
@@ -123,15 +124,6 @@ header {
     position: absolute;
     
 }
-    
-    
-    
-    
-
-
-    
-
-
 
 
 .button-header{
@@ -159,6 +151,15 @@ header {
 
 
 
+
+
+
+
+    
+
+
+
+
 .button-hor{
     text-align: center;
     width: 100%;   
@@ -167,6 +168,7 @@ header {
     color: white;
     display: inline-block;
 
+
 }
 
 .text-hor{
@@ -174,14 +176,23 @@ header {
 }
 .space-hor{
     width: 30%;
+    padding-right:15px;
+    padding-top: 20px;
+}
+
+.button-check {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom:30px
+    
 }
 
 
 section {
     width: 1000px;
     margin: 0 auto;
-    height: 2000px;
-    border: 1px solid black;
+    /* height: 2000px; */
+    margin-top: 50px;
     
 
 }
@@ -189,24 +200,50 @@ section {
 
 
 .container-plan {
-    width: 100%
+    width: 100%;
 
 }
+
+
+
+
 .ver-pro, .ver-sta, .ver-adv {
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 20px);
     border: 1px solid black;
     height: 800px;
     
 }
-/* .ver-sta{
-    margin:0 10px;
-} */
 
-.title{
+
+.ver-pro{
+    
+    margin-right: 5px;
+}
+
+.ver-sta{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ver-adv{
+    margin-left: 5px;
+}
+    
+
+
+
+
+
+
+
+.titles{
     text-align: center;
     font-size: 18px;
     height: 40px;
     border-bottom: 1px solid black;
+    font-weight: 600;
+    padding-top: 5px;
+
 }
 
     
@@ -220,4 +257,70 @@ section {
     border: 1px solid black;
     display: inline-block;
     margin-top: 15px;
+    
 }
+.text-hor{
+    padding: 20px;
+}
+.text-hor h4 {
+    text-align: left;
+}
+
+.text-hor span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.text-hor p{
+    font-size: 12px;
+
+}
+
+.text-partner{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.img-partner{
+    width: 50%;
+}
+
+.img-partner img{
+    width: 100%;
+}
+
+
+.text-partner p{
+    font-size: 12px;
+}
+
+.text-partner h4{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.button-partner{
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: ;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.container-business{
+    border: 1px solid #ccc;
+}
+
+.container-feature{
+    width: calc(100% / 3 );
+}
+
+.img-feature img{
+    width: 100%;
+}
+
+
+
+
