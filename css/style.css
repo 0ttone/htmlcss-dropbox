@@ -143,15 +143,45 @@ header {
 
 .button-bplan{
     text-align: center;
-    width: 100%;   
+    /* width: 100%;    */
     background-color: #0061ff;
     padding: 10px;
     color: white;
     display: inline-block;
+    margin-left:45px;
     
     
 
 }
+
+.punti{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    display: inline-block;
+    
+}
+
+
+.punti-list  {
+    display:inline-block;
+    width:100%;
+    padding-bottom: 20px;
+}
+
+.check {
+    display: inline-block;
+    width: 7px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.text-punti{
+    display: inline-block;
+    width: 300px;
+    font-size: 16px;
+}
+
 
 
 
@@ -382,6 +412,7 @@ section {
 
 .container-try{
     background-color: #b4d0e7;
+    height: 200px;
 
 }
 .try{
