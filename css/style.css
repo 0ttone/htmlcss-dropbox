@@ -55,7 +55,7 @@ h5{
 
 h3{
     font-size: 38px;
-    padding-top:100px;
+    
     
 }
 
@@ -64,6 +64,10 @@ h3{
     background-color:#b4d0e7;
     position: relative;
     
+}
+
+.container-bplan h3{
+    padding-top:100px;
 }
 
 .top-bar {
@@ -310,17 +314,101 @@ section {
 }
 
 .container-business{
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .container-feature{
     width: calc(100% / 3 );
+    height: 650px;
 }
 
 .img-feature img{
     width: 100%;
+    
+}
+
+.img-feature{
+    text-align: center;
+}
+
+.title-feature{
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+    height: 85px;
+}
+
+.text-feature{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.container-teamcard{
+    width: 100vw;
+    height: calc(100vw / 3);
+    border: 1px solid #ccc;
+
+}
+
+/* Non riesco a ridurre il codice, non gira (avrò perso qualcosa..) */
+
+.col-cen{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.col-sx{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid #ccc;
+}
+.col-dx{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    border: 1px solid #ccc;
+}
+
+.teamcard {
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.teamcard img{
+    width: 100%;
 }
 
 
+.container-try{
+    background-color: #b4d0e7;
+
+}
+.try{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+text.try h3{
+    font-size: 38px;
+    padding-top: 10px;
+}
+
+
+.text-try{
+    width: 70%;
+}
+.button-try{
+    
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
 
 
