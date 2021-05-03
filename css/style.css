@@ -156,6 +156,12 @@ header {
 
 }
 
+.offerta li{
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
 .punti{
     font-size: 18px;
     font-weight: 600;
@@ -169,6 +175,7 @@ header {
     display:inline-block;
     width:100%;
     padding-bottom: 20px;
+    padding-left: 5px;
 }
 
 .check {
@@ -238,12 +245,13 @@ section {
 
 }
 
-
+/* gutter: sottratta la metà dei margini left e right del 
+centrale, ma non torna qualche pixel */
 
 .ver-pro, .ver-sta, .ver-adv {
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 10px);
     border: 1px solid black;
-    height: 800px;
+    
     
 }
 
@@ -253,16 +261,16 @@ section {
 
 .ver-pro{
     
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 
 .ver-sta{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .ver-adv{
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
     
 
@@ -355,8 +363,13 @@ section {
 }
 
 .container-feature{
-    width: calc(100% / 3 );
+    width: calc(100% / 3 - 10px);
     height: 650px;
+}
+
+.container-feature2{
+    margin:0 15px;
+    
 }
 
 .img-feature img{
