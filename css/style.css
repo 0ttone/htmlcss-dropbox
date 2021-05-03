@@ -50,6 +50,7 @@ h4{
 }
 
 h5{
+    font-size: 18px;
 
 }
 
@@ -474,7 +475,7 @@ text.try h3{
 .faq li{
     border-top: 1px solid #ccc;
     padding: 30px 0 20px;
-    display: inline-block
+    display: block
 }
 
 .faq-arrow{
@@ -486,4 +487,21 @@ text.try h3{
     right: 0;
     margin-right: 15px;
 }
+
+
+/* footer */
+
+footer{
+    height: 500px;
+    border: 1px solid #ccc;
+    
+}
+
+.colonna {
+    width: calc(100% / 5);
+    border: 1px dotted black;
+    height: 400px;
+}
+
+
 
